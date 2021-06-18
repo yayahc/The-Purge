@@ -12,7 +12,7 @@ def purge(string, string_to_purge):
         else :
             w.append(i)
 
-    return "".join(tab)
+    return "".join(w)
 
 w = []
 print(purge('welcome','o'))
